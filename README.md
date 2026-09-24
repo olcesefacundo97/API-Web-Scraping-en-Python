@@ -47,6 +47,7 @@ Y la respuesta podría ser algo como:
 ## Notas
 
 - Este es un ejemplo básico y local. Asegúrate de cumplir con las políticas de uso de los sitios web que intentes analizar.
+- **No exponer en producción:** el endpoint acepta URLs arbitrarias y actualmente no restringe destinos internos, no aplica timeout ni límite de respuesta, y Flask se inicia con el modo debug habilitado. Ejecuta el ejemplo solo en un entorno local de confianza.
 - Considera las implicaciones éticas y legales del web scraping antes de implementar en un entorno de producción.
 - Este proyecto se proporciona "tal cual" sin garantías.
 
